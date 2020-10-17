@@ -28,6 +28,12 @@
 
 
 <p id="demo" style = "color: red" >number will be here !! </p>
+
+<input type="text" id="myText" value="and some text...">
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+
 <script src="scripts.js"></script>
 
 
