@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/coderFeedforward/codeFeedforward.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!doctype html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<html lang="en">
+<head>
+  <meta charset="utf-8">
 
-### Markdown
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
 
-```markdown
-Syntax highlighted code block
+</head>
 
-# Header 1
-## Header 2
-### Header 3
+<body>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+<input type="number" id="myNumber" value="2">
+<h3>+</h3>
+<input type="number" id="myOtherNumber" value="2">
 
-[Link](url) and ![Image](src)
-```
+<p>Click the button to add them.</p>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<button onclick="myFunction()">Try it</button>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/coderFeedforward/codeFeedforward.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+<p id="demo" style = "color: red" >number will be here !! </p>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script>
+function myFunction() {
+  var x = document.getElementById("myNumber").value;
+  var y = document.getElementById("myOtherNumber").value;
+  var z = (x * 1) + (y * 1 ); 
+
+  document.getElementById("demo").innerHTML = z;
+}
+
+</script>
+
+</body>
+</html>
