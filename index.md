@@ -28,7 +28,7 @@
 
 
 <p id="demo" style = "color: red" >number will be here !! </p>
-<script src="js/scripts.js"></script>
+<script src="scripts.js"></script>
 
 
 
