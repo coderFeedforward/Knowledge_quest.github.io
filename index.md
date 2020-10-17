@@ -31,7 +31,7 @@
 
 <input type="text" id="myText" value="and some text...">
 <button onclick="Function()">Try this to</button>
-<p id="demo"></p>
+<p id="demooo"></p>
 
 
 <script src="scripts.js"></script>
