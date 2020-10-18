@@ -10,10 +10,10 @@ function myFunction() {
   document.getElementById("demo").innerHTML = z;
 }
 
-/*
+
 function Function() {
   var x = document.getElementById("myText").value;
   myList[1] = x;
   document.getElementById("demooo").innerHTML = x ;
 }
-*/
+
