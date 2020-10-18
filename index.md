@@ -14,8 +14,8 @@
 </head>
 
 <body>
-  <h1> hi zach </h1>
-  <h3> varshion 9 </h3>
+  
+  <h1> varshion 10 </h1>
 
 
 <input type="number" id="myNumber" value="2">
@@ -32,7 +32,7 @@
 
 <input type="text" id="myText" value="and some text...">
  
-<button onclick="Function()">Try this to</button>
+<button onclick="FunctionFunk()">Try this to</button>
 
 <p id="demooo"></p>
 
