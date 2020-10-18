@@ -11,7 +11,7 @@ function myFunction() {
 }
 
 
-function Function() {
+function FunctionFunk() {
   var x = document.getElementById("myText").value;
   myList[1] = x;
   document.getElementById("demooo").innerHTML = x ;
