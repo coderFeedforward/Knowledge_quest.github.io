@@ -1,3 +1,5 @@
+console.log("hello hello hello);
+
 var myList = [null, null];
 function myFunction() {
   var x = document.getElementById("myNumber").value;
