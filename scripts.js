@@ -4,7 +4,8 @@ function myFunction() {
   var y = document.getElementById("myOtherNumber").value;
   var z = (x * 1) + (y * 1 ); 
   myList[0] = z;
-  document.getElementById("demo").innerHTML = myList;
+  var w = <input type="text" id="myText" value="and some text...">
+  document.getElementById("demo").innerHTML = w;
 }
 
 
