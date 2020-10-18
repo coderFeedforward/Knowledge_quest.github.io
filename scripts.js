@@ -1,4 +1,4 @@
-console.log("hello hello hello);
+
 
 var myList = [null, null];
 function myFunction() {
@@ -14,5 +14,5 @@ function myFunction() {
 function Function() {
   var x = document.getElementById("myText").value;
   myList[1] = x;
-  document.getElementById("demooo").innerHTML = myList ;
+  document.getElementById("demooo").innerHTML = x ;
 }
