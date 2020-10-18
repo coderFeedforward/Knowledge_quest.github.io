@@ -30,7 +30,7 @@
 
 <p id="demo" style = "color: red" >number will be here !! </p>
 
-<input type="text" id="myText" value="and some text...">
+
 <button onclick="Function()">Try this to</button>
 <p id="demooo"></p>
 
