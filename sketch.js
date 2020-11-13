@@ -71,9 +71,16 @@ for(var z = 0; z < numBUllits; z++){
             if(bullitsX[z] > playerX && bullitsX[z] < playerX + playerW){
               HP = HP - 1;
               console.log(HP)
-              bullitsX[z] = 1200;
+              bullitsX[z] = 1300;
       }
   }
+  }
+    if(playerX == width){
+    background(0,0,255);
+    textSize(40);
+    fill(0);
+    stroke(70);
+    text("you win !!!", width/2, height/2);
   }
     
 }
