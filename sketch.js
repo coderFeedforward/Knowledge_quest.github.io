@@ -54,7 +54,7 @@ function draw() {
   
   for(var j = 0; j < numBUllits; j++){
   if(bullitsX[j] == -10){
-    bullitsX[j] = 1000 ;//+random(-150, 150);
+    bullitsX[j] = 1200 ;//+random(-150, 150);
     //IF BULLIT OUT OF SCREAN THAN MOVE BACK 
     bullitsY[j] = bullitsY[j] + random(-250, 250);
   }
