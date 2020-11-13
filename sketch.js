@@ -5,7 +5,7 @@ function preload(){
 
 
 //FIX THE COLISHION LOGIC AND STUFF SO DEATH WORKS //RIGHT , Make bullit disopear 
-var numBUllits = 10;
+var numBUllits = 20;
 var bullitsX = [];
 var bullitsY = [];
 var bullitH = 20;
