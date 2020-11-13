@@ -75,7 +75,7 @@ for(var z = 0; z < numBUllits; z++){
       }
   }
   }
-    if(playerX == width){
+    if(playerX == width - playerW){
     background(0,0,255);
     textSize(40);
     fill(0);
