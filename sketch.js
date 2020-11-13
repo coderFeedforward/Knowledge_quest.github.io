@@ -11,7 +11,7 @@ var bullitsY = [];
 var bullitH = 20;
 var bullitW = 40;
 
-var HP = 3;
+var HP = 1;
 var playerX = 50;
 var playerY = 220;
 var playerH = 100;
