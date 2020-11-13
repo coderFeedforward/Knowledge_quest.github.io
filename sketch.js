@@ -69,8 +69,9 @@ function draw() {
 for(var z = 0; z < numBUllits; z++){
   if(bullitsY[z] > playerY && bullitsY[z] < playerY + playerH){
             if(bullitsX[z] > playerX && bullitsX[z] < playerX + playerW){
-              HP = HP - 0.25;
+              HP = HP - 1;
               console.log(HP)
+              bullitsX[z] = 1200;
       }
   }
   }
